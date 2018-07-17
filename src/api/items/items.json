@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Christina Howell",
+    "position": "Sales Representative",
+    "phone": "+672234154562",
+    "email": "chowell@smith.com",
+    "performance": 0,
+    "retention": 0,
+    "score": 0,
+    "thumbsUp": true
+  },
+  {
+    "name": "John Smith",
+    "position": "Sales Representative",
+    "phone": "+972543154503",
+    "email": "john@smith.com",
+    "performance": 5,
+    "retention": 0,
+    "score": 0,
+    "thumbsUp": false
+  },
+  {
+    "name": "Jane Williams",
+    "position": "Frontend Developer",
+    "phone": "+978523456503",
+    "email": "jwilliams@mail.com",
+    "performance": 5,
+    "retention": 5,
+    "score": 5
+  },
+  {
+    "name": "Drake Doe",
+    "position": "Sales Managment",
+    "phone": "+972453324523",
+    "email": "drakedoe@mail.com",
+    "performance": 0,
+    "retention": 2,
+    "score": 3
+  },
+  {
+    "name": "Samantha Smith",
+    "position": "Marketing Executive",
+    "phone": "+924543457803",
+    "email": "ssmith@mail.com",
+    "performance": 5,
+    "retention": 0,
+    "score": 0,
+    "thumbsUp": true
+  },
+  {
+    "name": "James Cruz",
+    "position": "Sales Representative",
+    "phone": "+972345154803",
+    "email": "jamesc@mail.com",
+    "performance": 5,
+    "retention": 0,
+    "score": 0,
+    "thumbsUp": true
+  },
+  {
+    "name": "Anna Stevenson",
+    "position": "Web Developer",
+    "phone": "+972523456903",
+    "email": "anna_s@mail.com",
+    "performance": 5,
+    "retention": 3,
+    "score": 4
+  },
+  {
+    "name": "Oliver Michelson",
+    "position": "Sales Representative",
+    "phone": "+932443153253",
+    "email": "m_oliver@mail.com",
+    "performance": 4,
+    "retention": 3,
+    "score": 4,
+    "thumbsUp": true
+  },
+  {
+    "name": "Jeff Haynes",
+    "position": "Head of Marketing",
+    "phone": "+972235156783",
+    "email": "jeffhaynes@mail.com",
+    "performance": 5,
+    "retention": 4,
+    "score": 5
+  },
+  {
+    "name": "John Traversy",
+    "position": "Web Developer",
+    "phone": "+923454323501",
+    "email": "johnt@mail.com",
+    "performance": 5,
+    "retention": 2,
+    "score": 4
+  },
+  {
+    "name": "Colton Johnson",
+    "position": "Sales Representative",
+    "phone": "+972523489511",
+    "email": "coltonj@mail.com",
+    "performance": 0,
+    "retention": 3,
+    "score": 0,
+    "thumbsUp": false
+  },
+  {
+    "name": "John Smith",
+    "position": "Sales Representative",
+    "phone": "+972543154503",
+    "email": "john@smith.com",
+    "performance": 5,
+    "retention": 0,
+    "score": 0,
+    "thumbsUp": true
+  },
+  {
+    "name": "Jane Williams",
+    "position": "Frontend Developer",
+    "phone": "+978523456503",
+    "email": "jwilliams@mail.com",
+    "performance": 5,
+    "retention": 5,
+    "score": 5
+  },
+  {
+    "name": "Drake Doe",
+    "position": "Sales Managment",
+    "phone": "+972453324523",
+    "email": "drakedoe@mail.com",
+    "performance": 0,
+    "retention": 2,
+    "thumbsUp": 3,
+    "thumbsUp": false
+  },
+  {
+    "name": "Samantha Smith",
+    "position": "Marketing Executive",
+    "phone": "+924543457803",
+    "email": "ssmith@mail.com",
+    "performance": 5,
+    "retention": 0,
+    "score": 0,
+    "thumbsUp": true
+  },
+  {
+    "name": "James Cruz",
+    "position": "Sales Representative",
+    "phone": "+972345154803",
+    "email": "jamesc@mail.com",
+    "performance": 5,
+    "retention": 0,
+    "score": 0
+  },
+  {
+    "name": "Anna Stevenson",
+    "position": "Web Developer",
+    "phone": "+972523456903",
+    "email": "anna_s@mail.com",
+    "performance": 5,
+    "retention": 3,
+    "score": 4
+  },
+  {
+    "name": "Oliver Michelson",
+    "position": "Sales Representative",
+    "phone": "+932443153253",
+    "email": "m_oliver@mail.com",
+    "performance": 4,
+    "retention": 3,
+    "score": 4
+  },
+  {
+    "name": "Jeff Haynes",
+    "position": "Head of Marketing",
+    "phone": "+972235156783",
+    "email": "jeffhaynes@mail.com",
+    "performance": 5,
+    "retention": 4,
+    "score": 5,
+    "thumbsUp": true
+  },
+  {
+    "name": "John Traversy",
+    "position": "Web Developer",
+    "phone": "+923454323501",
+    "email": "johnt@mail.com",
+    "performance": 5,
+    "retention": 2,
+    "score": 4,
+    "thumbsUp": false
+  },
+  {
+    "name": "Colton Johnson",
+    "position": "Sales Representative",
+    "phone": "+972523489511",
+    "email": "coltonj@mail.com",
+    "performance": 0,
+    "retention": 3,
+    "score": 0
+  }
+]

@@ -1,0 +1,17 @@
+<div class="main col-sm-12">
+  <span *ngIf="item.score > 0; else placeholder"
+        class="circle-it"
+        [style.color]="item.score === 5 ? '#2ecc71' : '#95a5a6'"
+        [style.border]="item.score === 5 ? '2px solid #2ecc71' : '2px solid #95a5a6'">
+    {{ item.score }}
+  </span>
+  <ng-template #placeholder>
+    <span class="circle-it">?</span>
+  </ng-template>
+  <small class="text-muted">
+    Your Score
+  </small>
+  <ngb-rating [(rate)]="item.score"
+              [max]="5"
+              [resettable]="true"></ngb-rating>
+</div>

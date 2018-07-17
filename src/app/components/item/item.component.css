@@ -1,0 +1,46 @@
+.accordion {
+  background-color: #fff;
+  color: #2f3542;
+  width: 100%;
+  text-align: left;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.main-content {
+  cursor: default;
+  padding: 18px;
+  transition: all 0.25s ease-out;
+  background-color: #fff;
+}
+
+.main-content:hover {
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.panel {
+  cursor: default;
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 15px 0 15px;
+  background-color: white;
+  border-top: 1px solid #bdc3c7;
+}
+
+.add-border {
+  cursor: pointer;
+}
+
+.add-border::after {
+  display: block;
+  height: 1px;
+  background-color: #bdc3c7;
+  content: ' ';
+  width: 104%;
+}
+
+@media only screen and (max-width: 575px) {
+  .give-margin {
+    margin-bottom: 5px;
+  }
+}

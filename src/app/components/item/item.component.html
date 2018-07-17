@@ -1,0 +1,51 @@
+<div class="container accordion">
+  <div class="row main-content"
+       (click)="handleAccordion($event, item)">
+    <div class="col-sm-2 give-margin">
+      <span *ngIf="item.performance > 0; else placeholder"
+            class="circle-it-sm">
+        {{ item.performance }}
+      </span>
+      <ng-template #placeholder>
+        <span class="circle-it-sm"
+              [ngStyle]="{ 'color':'#d6dcdc', 'border': '1px solid #d6dcdc' }">?</span>
+      </ng-template>
+    </div>
+    <div class="col-sm-4 give-margin">
+      {{ item.name }}
+    </div>
+    <div class="col-sm-5 give-margin">
+      {{ item.position }}
+    </div>
+    <div class="col-sm-1 text-right">
+      <i class="fa fa-thumbs-up thumbsUp"
+         *ngIf="item.thumbsUp"></i>
+      <i class="fa fa-thumbs-down thumbsDown"
+         *ngIf="!item.thumbsUp && item.thumbsUp != undefined"></i>
+      <i class="fa fa-thumbs-up noThumbs"
+         *ngIf="item.thumbsUp == undefined"></i>
+    </div>
+  </div>
+
+  <div class="row panel"
+       *ngIf="!isHidden"
+       @slide>
+    <div class="col-sm-3">
+      <app-item-info [item]="item"></app-item-info>
+    </div>
+    <div class="col-sm-3">
+      <app-item-performance [item]="item"></app-item-performance>
+    </div>
+    <div class="col-sm-3">
+      <app-item-retention [item]="item"></app-item-retention>
+    </div>
+    <div class="col-sm-3">
+      <app-item-score [item]="item"></app-item-score>
+    </div>
+
+    <div class="col-sm-9 offset-sm-3 mb-3">
+      <small class="text-muted add-border"
+             (click)="showLess()">Show Less</small>
+    </div>
+  </div>
+</div>
